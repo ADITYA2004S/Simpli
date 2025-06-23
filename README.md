@@ -1,4 +1,4 @@
-![Sempli Logo](https://raw.githubusercontent.com/your-username/sempli/main/logo.png)
+![Sempli Logo](images/logo.png)
 
 # Sempli
 
