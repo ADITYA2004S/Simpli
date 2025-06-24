@@ -1,0 +1,23 @@
+{
+    "name": "Sempli",
+    "version": "1.0.0",
+    "description": "Words meaning easily",
+    "manifest_version": 3,
+    "author": "Aditya Singh",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Sempli: Simplify Words Instantly"
+    },
+   
+
+    "icons":
+    {
+        "16":"logo.png"
+    },
+    "content_scripts": [
+  {
+    "matches": ["<all_urls>"],  
+    "js": ["background.js"]
+  }
+]
+}
