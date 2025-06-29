@@ -1,4 +1,5 @@
 // will be writing the logic here of the js //
+import definations from 
 console.log("hello world");
 // document.querySelector(".submit").addEventListener("click", () => {
 //   alert("word sent");

@@ -2,10 +2,86 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Word Meaning</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+        background: #1e1e1e;
+        color: #f1f5f9;
+        width: 360px;
+        height: auto;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .container {
+        padding: 20px;
+        backdrop-filter: blur(16px);
+        background: rgba(40, 40, 40, 0.85);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 16px;
+      }
+
+      .header {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: #ffffff;
+      }
+
+      .definition {
+        background: #2c2c2c;
+        padding: 14px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+        transition: all 0.2s ease;
+      }
+
+      .definition:hover {
+        background: #3a3a3a;
+      }
+
+      .close-btn {
+        display: block;
+        width: 100%;
+        margin-top: 14px;
+        padding: 10px;
+        background: #f87171;
+        border: none;
+        color: white;
+        font-weight: 500;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.2s ease;
+      }
+
+      .close-btn:hover {
+        background: #ef4444;
+      }
+
+      .empty-state {
+        font-size: 14px;
+        color: #9ca3af;
+      }
+
+      ::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #555;
+        border-radius: 8px;
+      }
+    </style>
   </head>
   <body>
+<<<<<<< HEAD
     <p class="text">
       Heloo my name is AdiYya and i am just writing some random text to test my
       logic
@@ -13,4 +89,16 @@
     <button class="send">Send</button>
   </body>
   <script src="logic.js"></script>
+=======
+    <div class="container">
+      <div class="header">Definition</div>
+      <div id="meaning-box">
+        <div class="definition empty-state">Waiting for selection...</div>
+      </div>
+      <button class="close-btn" onclick="window.close()">Close</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+>>>>>>> e0a0eb5 (Initial Inject of UI on browser)
 </html>
