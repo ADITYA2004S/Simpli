@@ -9,7 +9,7 @@
     "default_title": "Sempli: Simplify Words Instantly"
   },
   "icons": {
-    "16": "logo.png"
+    "16": "images/logo.png"
   },
   "content_scripts": [
     {
